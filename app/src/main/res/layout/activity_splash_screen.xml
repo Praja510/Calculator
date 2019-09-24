@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/image_view_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="245dp"
+        android:src="@drawable/calculator" />
+
+    <TextView
+        android:id="@+id/text_view_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view_wisata"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="397dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="@string/calculator_cuy"
+        android:textSize="28sp" />
+
+</RelativeLayout>
